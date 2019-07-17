@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .image-background {
+            height: 100vh;
+            background-image: url(./background.jpeg);
+            background-size: cover;
+        }
+
+        .text-alignment {
+            font-size: 20px;
+            position: absolute;
+            top: 54px;
+            left: 49%;
+            word-spacing: 47px;
+            color: white;
+        }
+
+        .back {
+
+            color: #37bdde;
+            background: rgba(131, 107, 105, 0.027);
+            border-color: transparent;
+            cursor: pointer;
+            padding: 5px 20px;
+            border-radius: 5px;
+            font-size: 15px;
+
+
+        }
+
+        .back:hover {
+            color: antiquewhite;
+            background-color: chocolate;
+        }
+
+        .text {
+            font-size: 60px;
+            position: absolute;
+            bottom: 200px;
+            right: 700px;
+            word-spacing: 1px;
+            color: seashell;
+        }
+
+        .ground {
+            font-size: 20px;
+            position: absolute;
+            top: 150px;
+            left: 10px;
+            word-spacing: 1px;
+            color: seashell;
+
+        }
+
+        .overlay {
+
+            background: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            opacity: 0.9;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="image-background">
+
+    </div>
+    <div class="text-alignment">
+        Home
+
+        Courses
+
+        Blog
+
+        contactus
+        <button class="back">Login</button>
+    </div>
+    <div class="text">
+        Develope a passion
+        learning new things
+
+        <p class="ground">
+            The best learning institute providing technical courses on real-time projects.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
